@@ -1,7 +1,5 @@
 package org.example.david
 
-import kotlin.collections.set
-
 class WeirdPodCount {
     fun solution(
         n: Int,

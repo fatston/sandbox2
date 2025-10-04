@@ -108,5 +108,14 @@ class WeirdPodCountTest {
         weirdPodCount.solution(n, pods, cost) shouldBe 4
     }
 
+    @Test
+    fun testThreeDuplicatesBreaksLogic() {
+        val n = 3
+        val pods = mutableListOf(2, 2, 2)
+        val cost = mutableListOf(3, 2, 1)
+
+        // Correct total under per-step model = 4
+        weirdPodCount.solution(n, pods, cost) shouldBe 4
+    }
 
 }
