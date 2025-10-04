@@ -98,5 +98,10 @@ class SquarepointQ6Test {
         q.solution(input) shouldBe 2
     }
 
+    @Test
+    fun test16() {
+        val input = mutableListOf<Long>(-2, 3, -2, 3, -2, 3, -100, 3, -2, 3, -2, 3)
+        q.solution(input) shouldBe 3
+    }
 
 }

@@ -16,6 +16,7 @@ class SquarepointQ6 {
         for (i in 1 until list.size) {
             val badPair = list[i - 1] + list[i] < 0
             val badTriple = ((i >= 2) && (list[i - 2] + list[i - 1] + list[i] < 0))
+            println("item: ${list[i]} badpair: $badPair, badTriple: $badTriple")
             if (badPair || badTriple) {
                 ops++
                 list[i] = big
