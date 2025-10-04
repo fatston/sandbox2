@@ -2,7 +2,6 @@ package david
 
 import io.kotest.matchers.shouldBe
 import org.example.david.WeirdPodCount
-import org.junit.jupiter.api.Assertions.*
 import org.junit.jupiter.api.Test
 
 class WeirdPodCountTest {
